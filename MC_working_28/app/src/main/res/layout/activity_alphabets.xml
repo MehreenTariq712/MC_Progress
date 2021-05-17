@@ -1,0 +1,182 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#781F3F"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="fill_parent"
+        tools:ignore="ScrollViewSize">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/imageView1"
+                app:srcCompat="@drawable/apple"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/imageView2"
+                app:srcCompat="@drawable/b"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/imageView3"
+                app:srcCompat="@drawable/c"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/imageView4"
+                app:srcCompat="@drawable/d"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Button
+                android:id="@+id/AButton"
+                android:onClick="A_Sound"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#F4EFEF"
+                android:text="@string/a"
+                android:textColor="#EC0F19"
+                android:textColorLink="#E42323"
+                android:textSize="30sp"
+                tools:ignore="UnknownId" />
+            <Button
+                android:id="@+id/BButton"
+                android:onClick="B_Sound"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#F4EFEF"
+                android:text="@string/b"
+                android:textColor="#EC0F19"
+                android:textColorLink="#E42323"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle,UnknownId" />
+            <Button
+                android:id="@+id/CButton"
+                android:onClick="C_Sound"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#F4EFEF"
+                android:text="@string/c"
+                android:textColor="#EC0F19"
+                android:textColorLink="#E42323"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle,HardcodedText,UnknownId" />
+            <Button
+                android:id="@+id/DButton"
+                android:onClick="D_Sound"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#F4EFEF"
+                android:text="@string/d"
+                android:textColor="#EC0F19"
+                android:textColorLink="#E42323"
+                android:textSize="30sp"
+                tools:ignore="UnknownId" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/imageView5"
+                app:srcCompat="@drawable/e"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/imageView6"
+                app:srcCompat="@drawable/f"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/imageView7"
+                app:srcCompat="@drawable/g"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/imageView8"
+                app:srcCompat="@drawable/h"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Button
+                android:id="@+id/EButton"
+                android:onClick="E_Sound"
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#F4EFEF"
+                android:text="@string/e"
+                android:textColor="#EC0F19"
+                android:textColorLink="#E42323"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle,UnknownId" />
+            <Button
+                android:id="@+id/FButton"
+                android:onClick="F_Sound"
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#F4EFEF"
+                android:text="@string/f"
+                android:textColor="#EC0F19"
+                android:textColorLink="#E42323"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle,UnknownId" />
+            <Button
+                android:id="@+id/GButton"
+                android:onClick="G_Sound"
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#F4EFEF"
+                android:text="G"
+                android:textColor="#EC0F19"
+                android:textColorLink="#E42323"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle,HardcodedText,UnknownId" />
+            <Button
+                android:id="@+id/HButton"
+                android:onClick="H_Sound"
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="#F4EFEF"
+                android:text="@string/h"
+                android:textColor="#EC0F19"
+                android:textColorLink="#E42323"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle,UnknownId" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+
+
+</ScrollView>
